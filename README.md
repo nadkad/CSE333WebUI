@@ -1,7 +1,7 @@
 # CSE333WebUI
 109051758 - Nadya Kadayifci
 
-Hi Professor Scarlatos & Brandon!
+Hi Professor Scarlatos & TA Brandon!
 
 I just wanted to say thank you for a great few semesters, 
 and thank you for making it possible for me to specialize in Human-Computer Interaction!
