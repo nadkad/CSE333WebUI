@@ -39,7 +39,6 @@
    padding: 5px;
    width: 50px;
  }
-
  h1, h2 {
    font-style: italic;
  }
@@ -47,11 +46,13 @@
    padding-top: 10px;
  }
  #milktea {
+   display: inline;
    width: 50%;
    height: 100%;
    float: left;
  }
  #mixtea, #food {
+   display: inline;
    width: 50%;
    height: 50%;
    float: right;
@@ -65,3 +66,25 @@
  #food h2 {
    color: aquamarine;
  }
+
+ @media only screen and (max-width: 480px) {
+   .gridContainer {
+   	width: 100%;
+   	height: 100%:
+   	max-width: 1232px;
+   	padding-left: 0.75%;
+   	padding-right: 0.75%;
+   	margin: auto;
+  }
+h2 {
+  display: inline;
+}
+#content {
+  height: auto;
+}
+#milktea, #mixtea, #food {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+}
